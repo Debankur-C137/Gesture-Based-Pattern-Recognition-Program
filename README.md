@@ -3,8 +3,6 @@ Gesture keyboard is a library used to convert accelerometer data to a sequence o
 
 If you want to implement or customize this yourself, [check out the tutorial below.](#how-to-use-the-library)
 
-## Demostration Video
-[Click here to watch the demonstration video](https://www.youtube.com/watch?v=OjTNS2ZKqRc)
 
 ## Module
 
@@ -71,7 +69,7 @@ Let's start a new recording batch, where you will record new samples for a speci
 Open the terminal and write:
 
 ```
-python start.py target=a:0 port=COM6
+python start.py target=a:0 port='port_no'
 ```
 
 Explanation:
@@ -103,5 +101,3 @@ To check out if the model is working, open the terminal and write:
 ```
 python start.py port=<YOUR_SERIAL_PORT> predict
 ```
-
-Now you can make gestures and see the algorithm predicting the correct one, most of the times :)
